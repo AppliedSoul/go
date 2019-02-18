@@ -23,6 +23,7 @@ var buildVersion = sys.TheVersion
 //     M must have an associated P to execute Go code, however it can be
 //     blocked or in a syscall w/o an associated P.
 //
+// to add TG Scheduler logic here and replace standard pooling.
 // Design doc at https://golang.org/s/go11sched.
 
 // Worker thread parking/unparking.
